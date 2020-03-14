@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+</head>
+<body>
+    <h2>Javascript Loops</h2>
+    <p id="demo"></p>
+<script>
+    // let t = 1;
+    // while (t<5) {
+    //     let q = 0;
+    //     while (q<t) {
+    //         document.write("*");
+    //         q++;
+    //     }
+    //     document.write("<br/>");
+    //     t++;
+    // }
+    let text = "";
+    for (i = 0;i < 5;i++) {
+        if (i === 3) {
+            break;
+            // continue;
+        }
+        text += "The number is " + i + "<br/>";
+    }
+    document.getElementById("demo").innerHTML = text;
+    // for (i = 0,j = 10;i<=10;i++,j--) {
+    //     let sum = i+j + "<br/>";
+    //     document.write(i + "+" +j + "=" + sum);
+    // }
+</script>
+</body>
+</html>
